@@ -251,7 +251,7 @@
     margin-top: 30px;
     margin-bottom: 130px;
 }
-.team_members .team_member .icons .icon_div{
+/* .team_members .team_member .icons .icon_div{
     width: 32px;
     height: 32px;
     border-radius: 16px;
@@ -259,10 +259,14 @@
     display: flex;
     align-items: center;
     justify-content: center;
-}
+} */
 .team_members .team_member .icons .icon_div i{
-    width: 7px;
-    height: 15px;
+    width: 32px;
+    height: 32px;
+    border-radius: 16px;
+    background-color: #bdd1df;
+    /* width: 7px;
+    height: 15px; */
     color: #ffffff;
     display: flex;
     align-items: center;
@@ -414,4 +418,266 @@
     background-color: #ebc985;
     box-shadow: none;
     border: none;
+}
+
+/* images div */
+.portfolio_section .main_column .images{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    justify-content: center;
+}
+.portfolio_section .main_column .images .project .image{
+    padding-bottom: 30px;
+}
+.portfolio_section .main_column .images .project .title h3{
+    font-size: 18px;
+    letter-spacing: 0px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #393939;
+    font-weight: 400;
+    font-family: "Titillium Web";
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+/* project button div */
+.portfolio_section .main_column .project_btn{
+    padding-top: 30px;
+    text-align: center;
+    padding-bottom: 110px;
+}
+.portfolio_section .main_column .project_btn button{
+    font-size: 18px;
+    letter-spacing: 0px;
+    line-height: 26px;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: "Titillium Web";
+    width: 293px;
+    height: 70px;
+    border-radius: 4px;
+    background-color: #17c2a4;
+    border: none;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    box-shadow: 0px 5px #14a58c;
+}
+
+/* people's think section */
+.people_say .main_column{
+    background-color: #d74680;
+}
+/* heading div */
+.people_say .main_column .heading h2{
+    font-size: 40px;
+    letter-spacing: 4px;
+    line-height: 30px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Titillium Web";
+    text-align: center;
+    padding-top: 120px;
+}
+
+/* divider div */
+.people_say .main_column .divider{
+    opacity: 0.149;
+    width: 87px;
+    height: 4px;
+    background-color: #000000;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+/* text div */
+.people_say .main_column .text{
+    margin-top: 25px;
+}
+.people_say .main_column .text p{
+    font-size: 18px;
+    letter-spacing: 0px;
+    line-height: 26px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Titillium Web";
+    text-align: center;
+}
+
+/* comments div */
+.people_say .main_column .comments{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 95px;
+    padding-top: 70px;
+    justify-content: start;
+    padding-bottom: 137px;
+}
+.people_say .main_column .comments .people{
+    display: flex;
+    justify-content: start;
+    gap: 45px;
+}
+.people_say .main_column .comments .people .image{
+    width: 96px;
+    height: 96px;
+    border-radius: 48px;
+    background-color: #787878;
+}
+.people_say .main_column .comments .people .info .description p{
+    width: 301px;
+    /* height: 192px; */
+    font-size: 21px;
+    letter-spacing: 0px;
+    line-height: 31px;
+    color: #ffffff;
+    font-weight: 400;
+    font-style: italic;
+    font-family: "Titillium Web";
+}
+.people_say .main_column .comments .people .info .title{
+    padding-top: 30px;
+}
+.people_say .main_column .comments .people .info .title h3{
+    font-size: 24px;
+    letter-spacing: 0px;
+    line-height: 26px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Titillium Web";
+}
+.people_say .main_column .comments .people .info .designation h4{
+    font-size: 18px;
+    letter-spacing: 0px;
+    line-height: 26px;
+    color: #ffdd99;
+    font-weight: 400;
+    font-family: "Titillium Web";
+    padding-top: 12px;
+}
+
+/* form section */
+.get_in_touch_section .main_column{
+    background-color: #3c5399;
+}
+
+/* heading div */
+.get_in_touch_section .main_column .heading h2{
+    font-size: 40px;
+    letter-spacing: 4px;
+    line-height: 30px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Titillium Web";
+    text-align: center;
+    padding-top: 115px;
+}
+
+/* divider div */
+.get_in_touch_section .main_column .divider{
+    opacity: 0.149;
+    width: 87px;
+    height: 4px;
+    background-color: #000000;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+/* text div */
+.get_in_touch_section .main_column .text p{
+    font-size: 18px;
+    letter-spacing: 0px;
+    line-height: 26px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Titillium Web";
+    text-align: center;
+    padding-top: 25px;
+}
+
+/* form div */
+.get_in_touch_section .main_column form{
+    padding-top: 85px;
+}
+.get_in_touch_section .main_column form .name_email{
+    display: flex;
+    justify-content: space-between;
+}
+.get_in_touch_section .main_column form .name_email .input_form input{
+    width: 414px;
+    height: 56px;
+    border-radius: 4px;
+    background-color: #273a71;
+    font-size: 18px;
+    line-height: 18px;
+    color: #ffffff;
+    font-weight: 400;
+    padding-left: 30px;
+    border: none;
+}
+.get_in_touch_section .main_column form .message{
+    padding-top: 30px;
+}
+.get_in_touch_section .main_column form .message textarea{
+    width: 1000px;
+    height: 200px;
+    border-radius: 4px;
+    background-color: #273a71;
+    font-size: 18px;
+    line-height: 18px;
+    color: #ffffff;
+    font-weight: 400;
+    padding-left: 30px;
+    padding-top: 30px;
+    border: none;
+}
+
+.get_in_touch_section .main_column form .message_btn{
+    padding-top: 60px;
+    text-align: center;
+    padding-bottom: 115px;
+}
+.get_in_touch_section .main_column form .message_btn button{
+    width: 293px;
+    height: 70px;
+    border-radius: 4px;
+    box-shadow: 0px 5px #289dc5;
+    background-color: #30bae7;
+    font-size: 18px;
+    letter-spacing: 0px;
+    line-height: 26px;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: "Titillium Web";
+    border: none;
+}
+
+/* footer section */
+.footer_section .main_column{
+    background-color: #334b8e;
+}
+.footer_section .main_column .social_media ul{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.footer_section .main_column .social_media ul li{
+    list-style: none;
+}
+/* .footer_section .main_column .social_media ul .twitter{
+    color: #365dc7 !important;
+}  */
+.footer_section .main_column .social_media ul li a{
+    text-decoration: none;
+    font-size: 24px;
+    letter-spacing: 0px;
+    line-height: 30px;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: "Titillium Web";
+    text-align: center;
 }
